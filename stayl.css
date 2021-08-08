@@ -1,0 +1,91 @@
+/*baground css*/
+body{
+    color:rgb(158, 156, 156) ;
+}
+.mynav{
+    
+    background-image: url(on.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size:cover ;
+    position: relative;
+}
+.navbar{
+    background-color: transparent !important;
+     justify-content: space-between;
+    align-items: right;
+}
+/*nav bar css*/
+.navbar .navbar-brand{
+ color: rgb(196, 64, 64); 
+ font-weight: bolder;
+ font-size: 1.3em;  
+}
+/*Text css*/
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+/*button css*/
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(197, 27, 27);
+    margin: 18px;
+    text-align: right;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        border: 1px solid;
+        background-color: #fff;
+        transition: 1s;
+    }
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+/*button css*/
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: red
+}
+/*second page css*/
+.container{
+    margin-top: 56px;
+    display: grid;
+    grid-template-columns:auto auto  auto ;
+    grid-row-gap: 40px;
+    border-radius: 0%;
+
+    padding: 20px;
+}
+/*
+card css
+*/
+.inner {
+    margin: 0 auto;
+    max-width: 1000px;
+   font-family: sans-serif;
+    padding-top: 0px;
+}
+   
+.inner img {
+    width: 99%;
+    transition: 0.5s all ease-in-out;
+}
+   
+.inner:hover:in-range img {
+    transform: scale(1.5s);
+}
+.text{
+    margin-top: 118px;
+    width: 90%;
+    text-align: center;
+
+}
+.page-footer{
+    background: black;
+}
